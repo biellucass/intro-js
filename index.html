@@ -89,9 +89,12 @@
 
             <h3> Abordagem Externa </h3>
             <p> Nessa abordagem, o JavaScript fica em um arquivo separado, geralmente com uma extensão .js, conectado ao HTML por meio de uma tag de script configurado com o atributo src. Exemplo: </p>
+
+            <button id="">Aperte aqui</button>
         </section>
     </main>
 
+    <!-- Criando um script Interno -->
     <script>
         const botao = document.querySelector("#botao");
 
@@ -100,6 +103,11 @@
             document.body.style.color = "white";
             alert("Você trocou a cor de fundo do site!")
         })
+
+    </script>
+
+    <!-- Conectando um arquivo externo -->
+    <script src="ola-mundo.js">
 
     </script>
 </body>
