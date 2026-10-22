@@ -6,6 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Gabriel Lucas">
     <title> Introdução ao JavaScript </title>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -81,7 +82,7 @@
             <button type="button" onclick="alert('Olá, mundo!')"> Clique aqui e veja a mensagem</button>
 
             <h3> Abordagem Interna </h3>
-            <p> Nessa abordagem, o JavaScript é escrito dentro da tag <pre> <code> &lt;script&gt;</code> </pre>, no próprio arquivo HTML. Exemplo: </p>
+            <p> Nessa abordagem, o JavaScript é escrito dentro da tag <pre> <code> &lt;script&gt;</code> </pre> no próprio arquivo HTML. Exemplo: </p>
 
             <button id="botao"> Clique aqui para mudar o fundo do site </button>
 
@@ -101,14 +102,14 @@
         botao.addEventListener("click", function(){
             document.body.style.backgroundColor = "black";
             document.body.style.color = "white";
+            document.body.section.style.border.color = "white";
             alert("Você trocou a cor de fundo do site!")
         })
-
     </script>
 
     <!-- Conectando um arquivo externo -->
-    <script src="ola-mundo.js">
+    <!-- <script src="ola-mundo.js"></script> -->
 
-    </script>
+    <script src="/02-tipos-de-dados.js"></script>
 </body>
 </html>
