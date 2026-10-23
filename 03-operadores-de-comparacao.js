@@ -35,5 +35,40 @@ console.log(5 != 3);
 console.log(5 != 5);
 console.log("--------------");
 
+// 5 - > maior que
+// Compara se um valor é maior que o outro  
+
+console.log(5 > 3);
+console.log(5 > 8);
+console.log(5 > 5);
+console.log("--------------");
+
+// 6 - < menor que
+// Compara se um valor é menor que o outro.
+
+console.log(5 < 3);
+console.log(5 < 8);
+console.log(5 < 5);
+console.log("--------------");
+
+// 7 - >= maior ou igual
+// Compara se o valor é maior ou igual.
+
+const nota = 5;
+
+console.log(nota >= 3);
+console.log(nota >= 8);
+console.log(nota >= 5);
+console.log("--------------");
+
+// 8 - <= maior ou igual
+// Compara se o valor é maior ou igual.
+
+console.log(nota <= 3);
+console.log(nota <= 8);
+console.log(nota <= 5);
+console.log("--------------");
+
+
 
 
