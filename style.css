@@ -1,8 +1,5 @@
 * {
-    padding: 0;
-    margin: 0;
-
-    list-style: none;
+    transition: all 300ms ease-out;
 }
 
 body {
@@ -11,6 +8,18 @@ body {
 
 main {
     padding: 2rem;
+}
+
+header{
+    position: sticky;
+    top: 1rem;
+    text-align: center;
+    background-color: #1d1d1d3c;
+    backdrop-filter: blur(.75rem);
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section, header {
@@ -36,7 +45,6 @@ button {
 button:hover{
     background-color: #9a3a12;
     cursor: pointer;
-    transition: 1s;
 }
 
 hr {
