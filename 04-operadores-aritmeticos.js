@@ -48,6 +48,25 @@ console.log(2 ** 3);
 console.log(5 ** 2);
 console.log("----------------");
 
+// 7 - Incremento ( ++ );
+
+let contador = 5;
+
+console.log(contador);
+
+contador++ //6
+++contador //6
+console.log(contador++);
+console.log("----------------");
+
+// 8 - Operador de decremento ( -- )
+let vidas = 3;
+console.log(vidas);
+
+vidas--
+console.log(vidas);
+
+
 
 
 
