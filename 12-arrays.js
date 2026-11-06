@@ -78,4 +78,14 @@ const reprovados = notas.filter(nota => nota < 7);
 console.log(reprovados);
 
 // Manipulando um Array
+const animais = ["Cachorro", "Pássaro", "Orritorrinco"];
 
+console.log(animais)
+
+console.log("---- push() ----");
+//Insere um elemento no final do array
+animais.push("Gorila");
+
+console.log("---- unshift() ----");
+// Insere um elemento mo inicio do array
+animais.unshift("Girafa");
